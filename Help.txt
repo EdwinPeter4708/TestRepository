@@ -1,0 +1,18 @@
+*Create A new Repository in Git Hub
+*Create a new folder in local disk to clone
+*Copy URL of Repository from Git Hub
+*Open CMD from the Location of folder
+*Enter command in CMD "git clone URL in GitHub"
+*Can Check Status that is there any thing new file to push entering command in CMD open cmd in that folder location 
+*git status
+*Now you can find new files if you got new file in that folder
+*To add that new file 
+			git add filename.extention
+*Before pushing login
+			git config --global user.email "email"
+			git config --global user.username "username"
+*After adding that, to add any description with file to git hub 
+						git commit -m "message"
+*To push that files 
+			git push
+
